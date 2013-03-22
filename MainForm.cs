@@ -382,5 +382,14 @@ namespace Inaprop
             AnalysisForm analysisForm = new AnalysisForm(SelectedProp);
             analysisForm.ShowDialog();
         }
+
+        private void exportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(SelectedProp.Name + "をCSV形式で出力します", "Export CSV file",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+            {
+                exportCSVprop(SelectedProp, Prop.n);
+            }
+        }
     }
 }

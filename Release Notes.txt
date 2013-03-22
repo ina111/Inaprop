@@ -8,6 +8,9 @@ Copyright (C) 2012 -
 Inagawa Takahiro
 ***********************************
 
+v0.61	March 22th 2013
+		Migrated development environment Visual Studio2012 professional
+
 v0.60	February 1st 2013
 		Added export airfoil thickness
 		Added Analysis Dialog and Analysis mode

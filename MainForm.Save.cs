@@ -41,19 +41,19 @@ namespace Inaprop
             System.IO.StreamWriter sr = new System.IO.StreamWriter(stCurrentDir + exportPath + exportName + ".csv", true, enc);
 
             // Header
-            sr.WriteLine("Inaprop ver." + this.ProductVersion);
-            sr.WriteLine("----");
+            //sr.WriteLine("Inaprop ver." + this.ProductVersion);
+            //sr.WriteLine("----");
 
-            sr.WriteLine("No. blades" + "," + prop.Blade);
+            sr.WriteLine("Number of blades" + "," + prop.Blade);
             sr.WriteLine("radius(m)" + "," + prop.Radius);
             sr.WriteLine("thrust(N)" + "," + prop.Thrust);
             sr.WriteLine("Power(W)" + "," + prop.Power);
             sr.WriteLine("Efficiency(%)" + "," + prop.Efficiency);
-            sr.WriteLine("spped(m/s)" + "," + prop.Uinf);
+            sr.WriteLine("speed(m/s)" + "," + prop.Uinf);
             sr.WriteLine("rpm" + "," + prop.Rpm);
             sr.WriteLine("hub rad.(m)" + "," + prop.Radius_in);
-            sr.WriteLine("rho(kg/m3)" + "," + prop.Rho);
-            sr.WriteLine("nu(kg/m-s)" + "," + prop.Nu);
+            sr.WriteLine("air density(kg/m3)" + "," + prop.Rho);
+            sr.WriteLine("kinematic viscosity coeff.(kg/m-s)" + "," + prop.Nu);
             sr.WriteLine("design METHOD" + "," + prop.Method);
 
             sr.WriteLine("====");

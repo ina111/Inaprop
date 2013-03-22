@@ -7,11 +7,15 @@ v0.55の現在、十分な機能が実装されておらず、バグが残って
 プロペラ設計プログラムとしてはXROTORという優れたオープンソースプログラムが存在しています。
 ちゃんと使いたかったらそちら推奨です。
 
+実行ファイルはbin\Relese\Inaprop.exeです．ソースコードのダウンロードやインストールの必要はありません．
+
 Inaprop is GUI propgram for the design and analysis of free-tip propellers.
 Inaprop has three design methods 
 which are Vortex methos, Larrabee method and Adkins $ Liebeck method(BEM:Blade Element Momentum method).
 Analysis routine is not implementation yet.
 Inaprop function is not enough yet.And there is an excellent rotor desing and analysis software 'XROTOR', please use there.
+
+If you just use, you only need the executable file(bin\Relese\Inaprop.exe)
 
 Required
 --------
