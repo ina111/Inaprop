@@ -42,7 +42,7 @@ local.properties
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
+#[Dd]ebug/
 [Rr]elease/
 *_i.c
 *_p.c
@@ -64,7 +64,7 @@ local.properties
 *.dotCover
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
-#packages/
+packages/
 
 # Visual C++ cache files
 ipch/
@@ -97,7 +97,7 @@ DocProject/Help/html
 publish
 
 # Others
-[Bb]in
+#[Bb]in
 [Oo]bj
 sql
 TestResults
