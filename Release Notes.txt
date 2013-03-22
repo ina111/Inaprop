@@ -1,0 +1,70 @@
+﻿***********************************
+Inaprop
+
+A tool for the design of the Propeller
+at the low Reynolds numbers region
+
+Copyright (C) 2012 -
+Inagawa Takahiro
+***********************************
+
+v0.60	February 1st 2013
+		Added export airfoil thickness
+		Added Analysis Dialog and Analysis mode
+
+v0.56	January 23th 2013
+		Added Export functions
+
+v0.55	January 19th 2013
+		Added linear interporation method
+		Corrected array of CL, CD in Prop to linear
+
+v0.54	January 8th 2013
+		Added array of CL, CD in Prop methods
+
+v0.53	January 5th 2013
+		Added ON/OFF toggle button for Plot
+		Fix plot bag
+		Corrected Harada method
+
+v0.52	January 3ed 2013
+		Added Prop database and database view
+
+v0.51	December 28th 2012
+		Added interpolation on BEM method
+		Corrected plot
+
+v0.50	December 27th 2012
+		Corrected Harada method
+		Corrected Adkins & Liebeck method
+		Added Interpolator class
+		minor bug corrections
+		 
+v0.40	Decenber 20th 2012
+		Complete reform of the interface
+		code cleaning
+
+v0.30	November 10th 2012
+		Added "Adkins & Liebeck method"
+		Added paformance analysis method
+
+v0.20	November 7th 2012
+		Added "Larrabee method"
+		Added saving plots in jpeg file
+
+v0.10	November 1st 2012
+		First relese
+
+
+TODO
+コードCleaning
+BEMとLarrabeeにReからもう一度計算するように
+慣性モーメント、回転数-ワット数グラフ、回転数-機速の等高線図
+ボリューム
+性能計算メソッドの実装。UIもProp毎にやるanalysis(Prop prop)
+
+math.net numerics入ったらスプライン補間を入れ替え
+
+Propクラスには数字だけ入れてメソッドは別にしたかった。partialでもいい
+
+クラスの参照コピーにバグ。値渡しと参照コピーの違いPropのやつ性能計算
