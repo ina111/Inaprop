@@ -39,31 +39,31 @@ It will be implemented other features.
 
 Refarence
 ---------
-* Vortex method
-原田正志,“低レイノルズ数プロペラの設計法”,宇宙航空研究開発機構研究開発報告 JAXA-RR-06-032, 1-13, 2007-03
-Harada,"Design of propeller in low Reynolds number range",JAXA-RR-06-032, 1-13, 2007-03
+### Vortex method
+* 原田正志,“低レイノルズ数プロペラの設計法”,宇宙航空研究開発機構研究開発報告 JAXA-RR-06-032, 1-13, 2007-03
+* Harada,"Design of propeller in low Reynolds number range",JAXA-RR-06-032, 1-13, 2007-03
 http://repository.tksc.jaxa.jp/pl/dr/AA0063471000
 
 * Chattot,"Optimization of propellers using helicoidal vortex model",Computational Fluid Dynamics Journal,2000
 http://mae.ucdavis.edu/chattot/publications/jjcoptiprop.pdf
 
-* Larrabee method
-Larrabee.E.E,"Practical Design of Minimum Induced Loss Propellers,"SAE Technical Paper 790585, 1979, doi:10.4271/790585
-Larrabee, E. E., Practical design of minimum induced loss propellers, SAE Technical Paper 790585, 1979.
+### Larrabee method
+* Larrabee.E.E,"Practical Design of Minimum Induced Loss Propellers,"SAE Technical Paper 790585, 1979, doi:10.4271/790585
+* Larrabee, E. E., Practical design of minimum induced loss propellers, SAE Technical Paper 790585, 1979.
 http://ja.scribd.com/doc/82049292/Minimum-Induced-Loss-Propeller-E-Larrabee
 
 * Design of Propellers for Motorsoarers
 http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19790015732_1979015732.pdf
 
-* Adkins & Liebeck method
-Adkins, C. N., Liebeck, R. H., Design of optimum propellers, Journal of Propulsion and Power, vol. 10 (1994), no. 5, pp 676–682.
+### Adkins & Liebeck method
+* Adkins, C. N., Liebeck, R. H., Design of optimum propellers, Journal of Propulsion and Power, vol. 10 (1994), no. 5, pp 676–682.
 
 * 高沢金吾, 外立政隆, 野中修:"低レイノルズ数域のプロペラ風洞試験",航空宇宙技術研究所報告 TR-1071, 1990-06, pp.29-
-TAKASAWA et al,"Wind Tunnel Test of a Propeller Working in a Low Reynolds Number Range"NAL TR-1071, 1990-06, pp.29-
+* TAKASAWA et al,"Wind Tunnel Test of a Propeller Working in a Low Reynolds Number Range"NAL TR-1071, 1990-06, pp.29-
 http://airex.tksc.jaxa.jp/pl/dr/NALTR1071000
 
-* etc...
-Betz, A. with Appendix by L. Prandtl, Schraubenpropeller mit Geringstem 
+### etc...
+* Betz, A. with Appendix by L. Prandtl, Schraubenpropeller mit Geringstem 
 Energieverlust, Göttinger Nachrichten, Göttingen, 1919, pp 193–217.
 
 * Goldstein, S., On the vortex theory of screw propellers, Proc R Soc London A, 1929,
